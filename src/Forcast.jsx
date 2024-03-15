@@ -38,6 +38,7 @@ function Forcast(props) {
 
   useEffect(() => {
     search("Delhi");
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
